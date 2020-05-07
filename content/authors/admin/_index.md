@@ -26,7 +26,7 @@ interests:
 
 education:
   courses:
-  - course: PhD in Computer Science
+  - course: PhD (Computer Science)
     institution: Universiti Sains Malaysia
     year: 2015
 
@@ -38,15 +38,18 @@ social:
 - icon: youtube
   icon_pack: fab
   link: https://www.youtube.com/user/pradeepisawasan
-- icon: twitter
+- icon: facebook
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com.my/citations?user=aHws58EAAAAJ&hl=en
+  link: https://www.facebook.com/pradeep.isawasan/
 - icon: github
   icon_pack: fab
   link: https://github.com/pradeep-isawasan
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com.my/citations?user=aHws58EAAAAJ&hl=en
+- icon: publons
+  icon_pack: ai
+  link: https://publons.com/researcher/481092/pradeep-isawasan/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
