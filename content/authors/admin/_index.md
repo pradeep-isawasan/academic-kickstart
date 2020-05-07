@@ -14,11 +14,11 @@ role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Universiti Tunku Abdul Rahman (UTAR)
+  url: "https://www.utar.edu.my/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include data science and machine learnin
 
 interests:
 - Data Science
