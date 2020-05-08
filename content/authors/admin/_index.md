@@ -66,4 +66,4 @@ user_groups:
 - Visitors
 ---
 
-Pradeep Isawasan is an Assistant Professor at the Department of Computer Science, Faculty of Information and Communication Technology, Universiti Tunku Abdul Rahman (UTAR). He is interested in data science and how it can assist in decision making. He also loves to swim, run and cycle and hopes one day he can participate in triathlon. 
+Pradeep Isawasan is currently an Assistant Professor at the Department of Computer Science, Faculty of Information and Communication Technology, Universiti Tunku Abdul Rahman (UTAR). He is interested in data science and how it can assist in decision making. He also loves to swim, run and cycle and hopes one day he can participate in triathlon. 
