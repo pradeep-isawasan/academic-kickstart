@@ -37,7 +37,7 @@ education:
 social:
 - icon: youtube
   icon_pack: fab
-  link: https://www.facebook.com/pradeep.isawasan/
+  link: https://www.youtube.com/user/pradeepisawasan
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/pradeep.isawasan/
