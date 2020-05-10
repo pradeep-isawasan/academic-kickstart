@@ -16,7 +16,7 @@ header:
 # comment here
 library(tidyverse)
 
-c <- c(10,20,30)
+A <- c(10,20,30)
 
 iris <- iris %>%
   select(Petal.Length)
