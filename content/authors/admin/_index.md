@@ -18,7 +18,7 @@ organizations:
   url: "https://www.utar.edu.my/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include data science and machine learning
+bio: Do it if it sparks joy!
 
 interests:
 - Data Science
@@ -66,4 +66,6 @@ user_groups:
 - Visitors
 ---
 
-Pradeep Isawasan is currently an Assistant Professor at the Department of Computer Science, Faculty of Information and Communication Technology, Universiti Tunku Abdul Rahman (UTAR). He is interested in data science and how it can assist in decision making. He also loves to swim, run and cycle and hopes one day he can participate in triathlon. 
+Pradeep Isawasan is currently an Assistant Professor at the Department of Computer Science, Faculty of Information and Communication Technology, Universiti Tunku Abdul Rahman (UTAR). He is interested in data science and how it can assist in decision making.
+
+He also loves to swim, run and cycle and hopes one day he can participate in triathlon.
