@@ -1,5 +1,5 @@
 ---
-title: Machine Learning using tidymodels
+title: Jom Bersihkan Data!
 date: "2018-06-28T00:00:00+01:00"
 draft: false
 share: false
@@ -12,4 +12,9 @@ header:
   image: ""
 ---
 
-Still in draft...
+```r
+# Example of code highlighting
+library(tidyverse)
+```
+
+{{< youtube w7Ft2ymGmfc >}}
