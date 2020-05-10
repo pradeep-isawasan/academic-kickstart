@@ -14,6 +14,6 @@ header:
 
 Pembersihan data atau "data cleaning" agak penting dalam proses data analisis. Video terbaru saya menunjukkan cara-cara mudah yang anda boleh buat untuk membersihkan data.
 
-Terima kasih dan jangan lupa untuk click Subscribe" untuk video-video berinformasi.
+Terima kasih dan jangan lupa untuk click "Subscribe" untuk video-video berinformasi.
 
 {{< youtube lN8X4S7Yy7c >}}
