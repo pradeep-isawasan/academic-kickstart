@@ -8,7 +8,7 @@ editable: false
 
 # Optional header image (relative to `static/img/` folder).
 header:
-  caption: ""
+  caption: "Pembersihan data"
   image: ""
 ---
 
