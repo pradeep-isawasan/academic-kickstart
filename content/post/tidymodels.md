@@ -1,7 +1,7 @@
 ---
-title: Jom Bersihkan Data!
+title: Chart Js
 date: "2018-06-28T00:00:00+01:00"
-draft: true
+draft: false
 share: false
 commentable: false
 editable: false
@@ -12,17 +12,35 @@ header:
   image: ""
 ---
 
-```r
-# comment here
-library(tidyverse)
-
-A <- c(10,20,30)
-
-iris <- iris %>%
-  select(Petal.Length)
-```
-
-```python
-import numpy as np
-print(apple)
+```chart
+{
+  "type": "pie",
+  "data": {
+    "labels": [
+      "Red",
+      "Blue",
+      "Yellow"
+    ],
+    "datasets": [
+      {
+        "data": [
+          300,
+          50,
+          100
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#36A2EB",
+          "#FFCE56"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#36A2EB",
+          "#FFCE56"
+        ]
+      }
+    ]
+  },
+  "options": {}
+}
 ```
