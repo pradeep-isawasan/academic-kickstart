@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Assistant Professor
+role:
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "https://www.utar.edu.my/"
 
 # Short bio (displayed in user profile at end of posts)
-bio:
+bio: From Data to Insight
 
 interests:
 - Data Science
