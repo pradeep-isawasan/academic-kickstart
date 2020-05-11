@@ -18,7 +18,7 @@ organizations:
   url: "https://www.utar.edu.my/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: From Data to Insight
+bio: 
 
 interests:
 - Data Science
