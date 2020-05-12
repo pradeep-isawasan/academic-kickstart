@@ -1,5 +1,5 @@
 ---
-title: Cara install package di R
+title: Cara install package dalam RStudio
 date: "2020-05-12T00:00:00+01:00"
 draft: false
 share: false
