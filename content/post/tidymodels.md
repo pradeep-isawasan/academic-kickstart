@@ -1,5 +1,5 @@
 ---
-title: Cara untuk install packages di R
+title: Cara install package di R
 date: "2020-05-12T00:00:00+01:00"
 draft: false
 share: false
@@ -12,6 +12,8 @@ header:
   image: ""
 ---
 
-## Pertama
+1. Pergi ke "Tools"
+2. Click "Install Packages"
+3. Window akan pop-up. Sekarang taip package yang and perlukan
 
-{{< figure library="true" src="install.gif" title="A caption" lightbox="true" >}}
+{{< video library="1" src="install.mp4" controls="yes" >}}
