@@ -14,4 +14,4 @@ header:
 
 ## Pertama
 
-{{< video library="1" src="install.mp4" controls="yes" >}}
+{{< figure library="true" src="install.gif" title="A caption" lightbox="true" >}}
