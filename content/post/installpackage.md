@@ -14,6 +14,6 @@ header:
 
 1. Pergi ke "Tools"
 2. Tekan "Install Packages".
-3. Suatu Window akan pop-up. Sekarang taip package yang and perlukan dan tekan "Install".
+3. Suatu Window akan pop-up. Sekarang taip package yang anda perlukan dan tekan "Install".
 
 {{< video library="1" src="install.mp4" controls="yes" >}}
