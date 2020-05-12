@@ -1,6 +1,6 @@
 ---
 title: Cara untuk install packages di R
-date: "2018-06-28T00:00:00+01:00"
+date: "2020-05-12T00:00:00+01:00"
 draft: false
 share: false
 commentable: false
@@ -14,4 +14,4 @@ header:
 
 ## Pertama
 
-{{< video src="install.mp4" controls="yes" >}}
+{{< video library="1" src="install.mp4" controls="yes" >}}
