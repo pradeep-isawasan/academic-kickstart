@@ -1,6 +1,6 @@
 ---
 title: Introduction to Machone Learning using tidymodels.
-date: "2018-06-28T00:00:00+01:00"
+date: "2020-05-19"
 draft: false
 share: false
 commentable: false
@@ -17,12 +17,17 @@ header:
 iris
 ```
 
-## Data Sampling
+## Libraries
+These two packages will be mainly used.
+```{r}
+library(tidyverse)
+library(tidymodels)
+```
 
+## Data Sampling
 Split your dataset into training and testing.
 
 ```{r}
-library(tidymodels)
 # initial_split from rsample package which is part of tidymodels
 iris_split <- initial_split(iris, prop = 0.7)
 
@@ -41,8 +46,9 @@ Prepare your recipe
 iris_recipe <-
   #define your formula
   recipe(Species ~., data = iris_full) %>%
-  # add some pre-processing steps
+  # if you are planning to normalize your numerical values
   step_normalize(all_numeric()) %>%
+  # if you are planning to knn-ly fill the missing values for categorical type
   step_knnimpute(Species)
 ```
 
@@ -82,7 +88,7 @@ knn_workflow <- workflow() %>%
   add_model(knn_model)
 ```
 
-You can now put all together.
+You can now fit your model to the dataset.
 
 ```{r}
 knn_fit <- knn_workflow %>%
@@ -116,7 +122,7 @@ If you want to use your model to predict new data, you need to use the fit() fun
 final_knnmodel <- fit(knn_workflow, iris)
 ```
 
-For example new data:
+For example lets create a new data:
 ```{r}
 new_iris <- tribble(~Sepal.Length, ~Sepal.Width, ~Petal.Length, ~Petal.Width, 5.1, 3, 2.7, 4)
 ```
@@ -127,5 +133,5 @@ predict(final_knnmodel, new_data = new_iris)
 ```
 
 ## Video Tutorial
-The full tutorial available in my YouTube channel
+The full tutorial available in my YouTube channel. Enjoy and don't forget to subscribe!
 {{< youtube 04sncGOrLR0 >}}
