@@ -1,5 +1,5 @@
 ---
-title: Introduction to Machone Learning using tidymodels.
+title: Introduction to Machine Learning using tidymodels.
 date: "2020-05-19"
 draft: false
 share: false
