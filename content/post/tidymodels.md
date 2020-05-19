@@ -1,5 +1,5 @@
 ---
-title: ntroduction to Machone Learning using tidymodels.
+title: Introduction to Machone Learning using tidymodels.
 date: "2018-06-28T00:00:00+01:00"
 draft: false
 share: false
@@ -32,7 +32,6 @@ iris_test <- testing(iris_split)
 ```
 
 ## Recipe
-
 Prepare your recipe
 
 1. recipe(): specify the formula
@@ -58,7 +57,6 @@ iris_train_preprocessed <- iris_recipe %>%
 ```
 
 ## Model Training
-
 Decide on what model you are planning to use.
 
 ```{r}
@@ -72,7 +70,6 @@ knn_model <-
 ```
 
 ## Workflow
-
 Now you can put the model and recipes together into a workflow
 
 ```{r}
@@ -85,13 +82,15 @@ knn_workflow <- workflow() %>%
   add_model(knn_model)
 ```
 
-# Model Evalutaion
+You can now put all together.
 
 ```{r}
 knn_fit <- knn_workflow %>%
   # fit the final best model to the training set and evaluate the test set
   last_fit(iris_split)
 ```
+## Model Evaluation
+Model evaluation is very important part in machine learning.
 
 ### Performance
 Here you can check on how good is your model performing
@@ -112,7 +111,7 @@ knn_predictions %>%
 ```
 
 ## Use your final model
-If you want to use your model to predict new data, you need to use the fit() function on your workflow and the dataset that you want to fit the final model. Remember: training datset + testing dataset.
+If you want to use your model to predict new data, you need to use the fit() function on your workflow and the dataset that you want to fit the final model. Remember: training dataset + testing dataset.
 ```{r}
 final_knnmodel <- fit(knn_workflow, iris)
 ```
@@ -127,9 +126,6 @@ If you wanted to predict the species of iris for new_iris, use predict() functio
 predict(final_knnmodel, new_data = new_iris)
 ```
 
-
-
-
-
+## Video Tutorial
 The full tutorial available in my YouTube channel
 {{< youtube 04sncGOrLR0 >}}
