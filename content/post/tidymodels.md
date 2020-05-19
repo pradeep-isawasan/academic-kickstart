@@ -1,6 +1,6 @@
 ---
 title: Introduction to Machine Learning using tidymodels.
-summary: machine learning, tidymodels
+summary: machine learning, tidymodels, R, RStudio
 date: "2020-05-19"
 draft: false
 share: false
