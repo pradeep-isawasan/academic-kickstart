@@ -1,6 +1,6 @@
 ---
 title: Microsoft-Top Lecturer for Data Science
-summary: Awarded by Malaysian (MDEC)
+summary: Awarded by Malaysia Digital Economy Corporation (MDEC)
 date: "2020-05-12T00:00:00+01:00"
 draft: false
 share: false
@@ -13,4 +13,6 @@ header:
   image: ""
 ---
 
-{{< figure library="true" src="mdec1.jpg" title="A caption" lightbox="true" >}}
+This award is part of Premier-Pride Challenge 2019 (PPC) organised by Malaysia Digital Economy
+Corporation (MDEC).
+{{< figure library="true" src="mdec1.jpeg" title="A caption" lightbox="true" >}}
