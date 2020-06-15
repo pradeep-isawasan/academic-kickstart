@@ -18,4 +18,4 @@ Corporation (MDEC).
 
 {{< figure library="true" src="mdec1.jpeg" title="Image" lightbox="true" >}}
 
-{{< figure library="true" src="mdec2.jpeg" title="image2" lightbox="true" >}}
+{{< figure library="true" src="mdec2.jpg" title="image2" lightbox="true" >}}
