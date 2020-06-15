@@ -15,4 +15,7 @@ header:
 
 This award is part of Premier-Pride Challenge 2019 (PPC) organised by Malaysia Digital Economy
 Corporation (MDEC).
-{{< figure library="true" src="mdec1.jpeg" title="A caption" lightbox="true" >}}
+
+{{< figure library="true" src="mdec1.jpeg" title="Image" lightbox="true" >}}
+
+{{< figure library="true" src="mdec2.jpeg" title="image2" lightbox="true" >}}
