@@ -14,8 +14,9 @@ header:
 ---
 
 This award is part of Premier-Pride Challenge 2019 (PPC) organised by Malaysia Digital Economy
-Corporation (MDEC).
+Corporation (MDEC). The prize-giving ceremony was held along with an event called “An Evening of Achievements” on 28 November 2019 at
+the Prism & Spectrum Connexion Bangsar South.
 
-{{< figure library="true" src="mdec1.jpeg" title="Image" lightbox="true" >}}
+{{< figure library="true" src="mdec1.jpeg" title="Image 1" lightbox="true" >}}
 
-{{< figure library="true" src="mdec2.jpg" title="image2" lightbox="true" >}}
+{{< figure library="true" src="mdec2.jpg" title="Image 2" lightbox="true" >}}
