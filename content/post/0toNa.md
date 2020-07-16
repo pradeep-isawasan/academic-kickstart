@@ -32,7 +32,7 @@ data = read_csv('diamonds.csv')
 #view the dataset
 data
 ```
-{{< figure library="true" src="viewdata.PNG" lightbox="true" >}}
+{{< figure library="true" src="viewdata.PNG" align="left" lightbox="true" >}}
 
 ## Summary Statistics
 We can use summary statistics to help identify missing or corrupt data.
@@ -41,6 +41,6 @@ We can use summary statistics to help identify missing or corrupt data.
 # summarize the dataset
 data.describe()
 ```
-{{< figure library="true" src="datadescribe.PNG" title="O" lightbox="true" >}}
+{{< figure library="true" src="datadescribe.PNG" align="left" lightbox="true" >}}
 
 Note the red arrow. It indicate the minimum value in the column x, y, z. Having 0 kind of unusual 
