@@ -32,7 +32,7 @@ data = read_csv('diamonds.csv')
 #view the dataset
 data
 ```
-{{< figure library="true" src="viewdata.PNG" title="O" lightbox="true" >}}
+{{< figure library="true" src="viewdata.PNG" lightbox="true" >}}
 
 ## Summary Statistics
 We can use summary statistics to help identify missing or corrupt data.
