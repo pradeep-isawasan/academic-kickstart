@@ -13,7 +13,7 @@ header:
   image: ""
 ---
 
-Real-world data often has missing values. Data can have missing values for a number of reasons such as observations that were not recorded and data corruption.
+Real-world data often has "unusual values". Data can have this so called "unusual" values for a number of reasons such as observations that were not recorded, data corruption.
 
 ## Libraries
 ```{python}
@@ -21,17 +21,23 @@ from pandas import read_csv
 from pandas import nan
 ```
 
-## Summary
+## Summary Statistics
 We can use summary statistics to help identify missing or corrupt data.
 
 ```{python}
 # summarize the dataset
 data.describe()
 ```
-{{< figure library="true" src="datadescribe.JPG" title="O" lightbox="true" >}}
+{{< figure library="true" src="datadescribe.PNG" title="O" lightbox="true" >}}
 
-## Dataset
+## Dataset (Bling Bling $$)
+For this tutorial we will be using diamonds dataset. It is a classic dataset and suitable for beginner for their data analysis.
+
+You can dowload the dataset from <https://www.kaggle.com/shivam2503/diamonds>
+
 ```{python}
 #load the dataset
 data = read_csv('diamonds.csv')
+data
 ```
+{{< figure library="true" src="viewdata.PNG" title="O" lightbox="true" >}}
