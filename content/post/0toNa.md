@@ -65,6 +65,13 @@ We first locate and count this 0's.
 ```
 {{< figure library="true" src="finding0.PNG" lightbox="true" >}}
 
+Now lets view the rows when the column x = 0
+```{python}
+# Filtering rows with column condition, x = 0
+data.loc[data.x == 0, :]
+```
+{{< figure library="true" src="viewx0.PNG" lightbox="true" >}}
+
 ### Marking with NaN
 In Python, specifically Pandas or NumPy, we can replace them with NaN (missing values) or some refer this step as marking with NaN. Values with a NaN value are ignored from operations like sum or count.
 
