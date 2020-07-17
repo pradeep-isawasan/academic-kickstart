@@ -25,10 +25,10 @@ from pandas import nan
 ### Dataset (Bling Bling $$)
 For this tutorial we will be using diamonds dataset. It is a classic dataset and suitable for beginner for their data analysis.
 
-You can dowload the dataset from <https://www.kaggle.com/shivam2503/diamonds>
+You can dowload the dataset from -> <https://www.kaggle.com/shivam2503/diamonds>
 
 ```{python}
-#load the dataset
+#load the dataset, please make sure on your working directory
 data = read_csv('diamonds.csv')
 #view the dataset
 data
@@ -36,7 +36,7 @@ data
 {{< figure library="true" src="viewdata.PNG" lightbox="true" >}}
 
 ### Summary Statistics
-We can use summary statistics to help identify missing or corrupt data.
+We can use summary statistics to help identify this unusual data.
 
 ```{python}
 # summarize the dataset
@@ -60,14 +60,17 @@ Now, imagine 0 is a data error, like the diamods dataset, it will really effect 
 We first locate and count this 0's.
 
 ```{python}
-# Finding 0
+# Finding and counting 0
 (data.loc[:, 'carat':'z'] == 0).sum()
 ```
 {{< figure library="true" src="finding0.PNG" lightbox="true" >}}
 
 
+### Marking with NaN
+In Python, specically Pandas or NumPy, we can replace them with NaN or some refer this step as marking with NaN. Values with a NaN value are ignored from operations like sum or count.
 
-
-### Replace with NaN
-In Python, specically Pandas, NumPy and Scikit-Learn, we mark missing values as NaN.
-Values with a NaN value are ignored from operations like sum, count, etc.
+Note that we only need to focus on column x, y, z because this are the columns the 0's are located
+```{python}
+# Replace 0 with NaN
+data[['x','y','z']] = data[['x','y','z']].replace(0, nan)
+```
