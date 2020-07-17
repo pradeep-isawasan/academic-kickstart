@@ -11,7 +11,7 @@ editable: false
 
 # Optional header image (relative to `static/img/` folder).
 header:
-  caption: "datadescribe.PNG"
+  caption: "static/img/datadescribe.PNG"
   image: ""
 ---
 
