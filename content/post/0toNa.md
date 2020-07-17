@@ -88,7 +88,7 @@ After we have replaced 0 with NaN, we can use the isnull() function to mark the 
 # Counting NaN
 data.isnull().sum()
 ```
-Running this will produce a similiar output as counting 0's. Note that columns x, y, z have the same number of NaN as zero values identied above. Now you can have a peace of mind!
+Running this will produce a similiar output as counting 0's. Note that columns x, y, z have the same number of NaN as zero values identified above. Now you can have a peace of mind!
 
 Now lets view again the rows when the column x = 0, whether they had been replaced with NaN.
 ```{python}
@@ -96,3 +96,7 @@ Now lets view again the rows when the column x = 0, whether they had been replac
 data.loc[data.x.isnull(), :]
 ```
 {{< figure library="true" src="NaN.PNG" lightbox="true" >}}
+
+Yes, finally we had successfully replace the 0's with NaN's. 
+
+For some machine learning algorithms having missing values can cause trouble. In my next post I will discuss on this.
