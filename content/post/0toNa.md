@@ -65,7 +65,7 @@ We first locate and count this 0's.
 ```
 {{< figure library="true" src="finding0.PNG" lightbox="true" >}}
 
-Now lets view the rows when the column x = 0
+Note that column x, y, z have 8, 7, 20 values with 0 respectively. Now lets view the rows when the column x = 0.
 ```{python}
 # Filtering rows with column condition, x = 0
 data.loc[data.x == 0, :]
@@ -97,6 +97,6 @@ data.loc[data.x.isnull(), :]
 ```
 {{< figure library="true" src="NaN.PNG" lightbox="true" >}}
 
-Yes, finally we had successfully replace the 0's with NaN's. 
+Yes, finally we had successfully replaced the 0's with NaN's. 
 
 For some machine learning algorithms having missing values can cause trouble. In my next post I will discuss on this.
