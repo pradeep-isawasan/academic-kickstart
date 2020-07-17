@@ -1,5 +1,6 @@
 ---
 title: Data Cleaning using Python
+subtitle: Handling Unusual Values
 summary: Replacing 0 with NaN
 date: "2020-05-19"
 draft: false
@@ -15,13 +16,13 @@ header:
 
 Real-world data often has "unusual values". Data can have this so called "unusual" values for a number of reasons such as observations that were not recorded, data corruption.
 
-## Libraries
+### Libraries
 ```{python}
 from pandas import read_csv
 from pandas import nan
 ```
 
-## Dataset (Bling Bling $$)
+### Dataset (Bling Bling $$)
 For this tutorial we will be using diamonds dataset. It is a classic dataset and suitable for beginner for their data analysis.
 
 You can dowload the dataset from <https://www.kaggle.com/shivam2503/diamonds>
