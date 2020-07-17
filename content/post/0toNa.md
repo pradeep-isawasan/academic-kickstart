@@ -11,8 +11,8 @@ editable: false
 
 # Optional header image (relative to `static/img/` folder).
 header:
-  caption: "static/img/datadescribe.PNG"
-  image: ""
+  caption: "datadescribe.PNG"
+  image: "datadescribe.PNG"
 ---
 
 Real-world data often has "unusual values". Data can have this so called "unusual" values for a number of reasons such as human errors or problem in measuring devices.
