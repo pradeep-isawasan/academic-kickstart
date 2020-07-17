@@ -4,7 +4,7 @@ subtitle: Handling "Unusual" Values
 summary: Real-world data often has "unusual values". Data can have this so called "unusual" values for a number of reasons such as human errors or problem in measuring devices.
 date: "2020-07-17"
 draft: false
-share: true
+share: false
 commentable: false
 editable: false
 
@@ -88,7 +88,7 @@ After we have replaced 0 with NaN, we can use the isnull() function to mark the 
 # Counting NaN
 data.isnull().sum()
 ```
-Running this will produce a similiar output as counting 0's. Note that columns x, y, z have the same number of NaN as zero values identified above. Now you can have a peace of mind!
+Running this will produce a similiar output as counting 0's. Note that columns x, y, z have the same number of NaN as zero values identified above. Now you can have a peace of mind!
 
 Now lets view again the rows when the column x = 0, whether they had been replaced with NaN.
 ```{python}
