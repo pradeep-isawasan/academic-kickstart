@@ -12,7 +12,7 @@ editable: false
 header:
   caption: ""
   image: "datadescribe.PNG"
-  preview: true
+  preview_only: true
 ---
 
 Real-world data often has "unusual values". Data can have this so called "unusual" values for a number of reasons such as human errors or problem in measuring devices.
