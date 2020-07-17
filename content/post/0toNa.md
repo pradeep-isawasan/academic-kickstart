@@ -32,7 +32,7 @@ data = read_csv('diamonds.csv')
 #view the dataset
 data
 ```
-{{< figure library="true" src="viewdata.PNG" fig.align = 'left' lightbox="true" >}}
+{{< figure library="true" src="viewdata.PNG" lightbox="true" >}}
 
 ## Summary Statistics
 We can use summary statistics to help identify missing or corrupt data.
@@ -41,6 +41,16 @@ We can use summary statistics to help identify missing or corrupt data.
 # summarize the dataset
 data.describe()
 ```
-{{< figure library="true" src="datadescribe.PNG" align="left" lightbox="true" >}}
+{{< figure library="true" src="datadescribe.PNG" lightbox="true" >}}
 
-Note the red arrow. It indicate the minimum value in the column x, y, z. Having 0 kind of unusual 
+The red arrow indicate the minimum value in each column. Note that column x, y, z, the dimensions of these diamonds, in mm have minimum value o. 
+
+We know that diamonds can’t have a width of 0 mm, so these values kind of unusual and must be incorrect.
+
+## Handling the Unusual Value
+We first locate and count this 0's.
+
+```{python}
+# Finding 0
+(data.loc[:, 'carat':'z'] == 0).sum()
+```
