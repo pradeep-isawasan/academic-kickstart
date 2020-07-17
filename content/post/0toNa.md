@@ -1,10 +1,10 @@
 ---
 title: Data Cleaning using Python
-subtitle: Handling Unusual Values
-summary: Replacing 0 with NaN
-date: "2020-05-19"
+subtitle: Handling "Unusual" Values
+summary: Real-world data often has "unusual values". Data can have this so called "unusual" values for a number of reasons such as human errors or problem in measuring devices.
+date: "2020-07-17"
 draft: false
-share: false
+share: true
 commentable: false
 editable: false
 
@@ -14,7 +14,7 @@ header:
   image: ""
 ---
 
-Real-world data often has "unusual values". Data can have this so called "unusual" values for a number of reasons such as observations that were not recorded, data corruption.
+Real-world data often has "unusual values". Data can have this so called "unusual" values for a number of reasons such as human errors or problem in measuring devices.
 
 ### Libraries
 ```{python}
@@ -35,7 +35,7 @@ data
 ```
 {{< figure library="true" src="viewdata.PNG" lightbox="true" >}}
 
-## Summary Statistics
+### Summary Statistics
 We can use summary statistics to help identify missing or corrupt data.
 
 ```{python}
@@ -49,14 +49,14 @@ The red arrow indicate the minimum value in each column. Note that column x, y, 
 We know that diamonds can’t have a width of 0 mm, so these values kind of unusual and must be incorrect.
 
 
-## Whats wrong with having 0 ?
+### Whats wrong with having 0 ?
 
 If 0 is the real value, for example 0 mark in an exam, we can keep it.
 
 Now, imagine 0 is a data error, like the diamods dataset, it will really effect the data distribution.
 
 
-## Handling the Unusual Value
+### Handling the Unusual Value
 We first locate and count this 0's.
 
 ```{python}
@@ -68,6 +68,6 @@ We first locate and count this 0's.
 
 
 
-## Replace with NaN
+### Replace with NaN
 In Python, specically Pandas, NumPy and Scikit-Learn, we mark missing values as NaN.
 Values with a NaN value are ignored from operations like sum, count, etc.
