@@ -2,6 +2,7 @@
 title: Data Cleaning using Python
 subtitle: Handling "Unusual" Values
 summary: Real-world data often has "unusual values". Data can have this so called "unusual" values for a number of reasons such as human errors or problem in measuring devices.
+featuredImage: "img/datadescribe.PNG"
 date: "2020-07-17"
 draft: false
 share: false
