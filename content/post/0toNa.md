@@ -43,9 +43,17 @@ data.describe()
 ```
 {{< figure library="true" src="datadescribe.PNG" lightbox="true" >}}
 
-The red arrow indicate the minimum value in each column. Note that column x, y, z, the dimensions of these diamonds, in mm have minimum value o. 
+The red arrow indicate the minimum value in each column. Note that column x, y, z, the dimensions of these diamonds, in mm have minimum value 0. 
 
 We know that diamonds can’t have a width of 0 mm, so these values kind of unusual and must be incorrect.
+
+
+## Whats wrong with having 0 ?
+
+If 0 is the real value, for example 0 mark in an exam, we can keep it.
+
+Now, imagine 0 is a data error, like the diamods dataset, it will really effect the data distribution.
+
 
 ## Handling the Unusual Value
 We first locate and count this 0's.
@@ -54,3 +62,11 @@ We first locate and count this 0's.
 # Finding 0
 (data.loc[:, 'carat':'z'] == 0).sum()
 ```
+{{< figure library="true" src="finding0.PNG" lightbox="true" >}}
+
+
+
+
+## Replace with NaN
+In Python, specically Pandas, NumPy and Scikit-Learn, we mark missing values as NaN.
+Values with a NaN value are ignored from operations like sum, count, etc.
