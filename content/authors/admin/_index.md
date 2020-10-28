@@ -18,7 +18,7 @@ organizations:
   url: "https://www.utar.edu.my/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
 - Data Science
@@ -38,6 +38,9 @@ social:
 - icon: youtube
   icon_pack: fab
   link: https://www.youtube.com/user/pradeepisawasan
+- icon: tiktok
+  icon_pack: fab
+  link: https://www.tiktok.com/@pradeepisawasan?lang=en
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/pradeep.isawasan/
