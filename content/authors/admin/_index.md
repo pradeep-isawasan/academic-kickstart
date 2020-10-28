@@ -40,10 +40,7 @@ social:
   link: https://www.youtube.com/user/pradeepisawasan
 - icon: tiktok
   icon_pack: fab
-  link: https://www.tiktok.com/@pradeepisawasan?lang=en
-- icon: facebook
-  icon_pack: fab
-  link: https://www.facebook.com/pradeep.isawasan/
+  link: https://www.tiktok.com/@pradeepisawasan?lang=en&sender_device=pc&sender_web_id=6838204141493405190&is_from_webapp=1
 - icon: github
   icon_pack: fab
   link: https://github.com/pradeep-isawasan
