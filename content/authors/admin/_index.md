@@ -38,7 +38,7 @@ social:
 - icon: youtube
   icon_pack: fab
   link: https://www.youtube.com/user/pradeepisawasan
-- icon: tiktok
+- icon: fa-tiktok
   icon_pack: fab
   link: https://www.tiktok.com/@pradeepisawasan?lang=en&sender_device=pc&sender_web_id=6838204141493405190&is_from_webapp=1
 - icon: github
