@@ -14,8 +14,8 @@ role:
 
 # Organizations/Affiliations
 organizations:
-- name: Universiti Tunku Abdul Rahman (UTAR)
-  url: "https://www.utar.edu.my/"
+- name: Universiti Teknologi MARA
+  url: "https://tapah.uitm.edu.my/v3/index.php"
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -66,6 +66,6 @@ user_groups:
 - Visitors
 ---
 
-Pradeep Isawasan is currently attached to Department of Computer Science, Faculty of Information and Communication Technology, Universiti Tunku Abdul Rahman (UTAR). He is interested in data science and how it can assist in decision making.
+Pradeep Isawasan is currently attached to Faculty of Computer and Mathematical Sciences, Universiti Teknologi MARA (Cawangan Perak). He is interested in data science and how it can assist in decision making.
 
 He also loves to swim, run and cycle and hopes one day he can participate in triathlon.
