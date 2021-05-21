@@ -67,5 +67,3 @@ user_groups:
 ---
 
 Pradeep Isawasan is currently attached to Faculty of Computer and Mathematical Sciences, Universiti Teknologi MARA (Cawangan Perak). He is interested in data science and how it can assist in decision making.
-
-He also loves to swim, run and cycle and hopes one day he can participate in triathlon.
